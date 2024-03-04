@@ -16,7 +16,7 @@ const JsUser = {
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
-
+//ways to accessing the object value
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
