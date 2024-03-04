@@ -1,11 +1,15 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+//how to singlton an object or how to declare object with the help of constructor
+
+// const tinderUser = new Object()//this is a singlton object
+
+const tinderUser = {}//this is non-singlton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
 tinderUser.isLoggedIn = false
 
 // console.log(tinderUser);
+//declare object into object
 
 const regularUser = {
     email: "some@gmail.com",

@@ -20,6 +20,7 @@ const JsUser = {
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
+//symbol key to access example
 // console.log(JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"
