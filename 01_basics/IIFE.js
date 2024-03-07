@@ -13,7 +13,7 @@
 //semicolon is neccesary because iife don,nt know where it have to stop.
 
 ( (numm) => {
-    //unnamed iffe
+    //unnamed iffe 
     console.log(`DB CONNECTED two ${numm}`);
 })('riya');
 
