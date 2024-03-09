@@ -1,10 +1,21 @@
 //map
+const myNumbers = [1,2,3,4,5,6,7,8,9];
 
+const newNumm = myNumbers.map((num)=>{
+  return num+10;
+})
+
+console.log(newNumm);
+
+//chaining mathod
+
+const one=myNumbers.map((num)=>num*10).map((num)=>num+1).filter((num)=>num>60)
+console.log(one);
 
 //filter 
-const mynum=[1,2,3,4,5,6]
+const mynum=[1,2,3,4,5,6];
 const newNums = mynum.filter((num)=>{
-     return num>4
+     return num>4;
 })
 console.log(newNums);
 
@@ -26,3 +37,27 @@ const books = [
     return bk.publish >= 1995 && bk.genre === "History"
 })
   console.log(userBooks);
+
+//reduce
+ //const array=[1,2,3]
+ //const ini=0
+ //const two=array.reduce((acc,cuv)=>acc+cuv,ini)
+ //console.log(two)
+
+ const shoppingCart=[
+  {
+    itm:"js course",
+    price:999
+  },
+  {
+    itm:"mobi course",
+    price:2999
+  },
+  {
+    itm:"AI course",
+    price:11999
+  }
+ ]
+
+ const netValue=shoppingCart.reduce((acc,item)=>acc+item.price,0)
+ console.log(`Total Price is: Rs.${netValue} `)
