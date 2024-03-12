@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1{
+            color: green;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <ul class="language">
-        <li>Javascript</li>
-    </ul>
+    <h1 class="head">Tap the button to change the color.</h1>
+    <button id="btn">Click Here!</button>
+    <script>
+        const btn=document.querySelector("#btn");
+        const head=document.querySelector(".head");
+        btn.addEventListener("click",()=>{
+            head.style.color="red";
+        })
+        </script>
+
 </body>
 </html>
