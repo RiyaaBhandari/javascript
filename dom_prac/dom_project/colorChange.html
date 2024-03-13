@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gray{
+            background-color: gray;
+            height: 15vh;
+            width: 26vh;
+            display: inline-block;
+        }
+        #yellow{
+            background-color: yellow;
+            height:15vh;
+            width:25vh;
+            display: inline-block;
+        }
+        #green{
+            background-color: green;
+            height:15vh;
+            width:25vh;
+            display: inline-block;
+        }
+        #blue{
+            background-color: blue;
+            height:15vh;
+            width:25vh;
+            display: inline-block;
+
+        }
+        .canva{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Color Scheme selector</h1>
+    <div class="canva">
+    
+    <span class="btn" id="gray"></span>
+    <span class="btn" id="yellow"></span>
+    <span class="btn" id="green"></span>
+    <span class="btn" id="blue"></span>
+    
+    </div>
+    <h2 align="center">Try to click one of that color to change the background color of the body</h2>
+    <script src="./cc.js"></script>
+</body>
+</html>
